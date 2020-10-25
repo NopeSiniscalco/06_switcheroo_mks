@@ -26,8 +26,8 @@ int main()
 	//Setup 2nd array
 	int b[10];
 	//Setup array pointers
-	int *ap = &a;
-	int *bp = &b;
+	int *ap = a;
+	int *bp = b;
 
 	//Assign array values
 	for (i = 0; i < 10; i++)
